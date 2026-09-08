@@ -18,3 +18,10 @@ def remover_tarefa(tarefa):
         print("Tarefa removida com sucesso!")
     else:
         print("Tarefa não encontrada.")
+
+def concluir_tarefa(tarefa):
+    if tarefa in tarefas:
+        tarefas.remove(tarefa)
+        print("Tarefa concluída com sucesso!")
+    else:
+        print("Tarefa não encontrada.")
