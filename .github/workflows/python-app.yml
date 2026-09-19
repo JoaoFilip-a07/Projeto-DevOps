@@ -24,3 +24,6 @@ jobs:
 
       - name: Executar aplicacao
         run: python app.py
+
+      - name: Executar testes unitarios
+        run: python -m unittest test_app.py
